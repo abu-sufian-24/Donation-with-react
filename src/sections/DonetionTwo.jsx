@@ -1,3 +1,4 @@
+import Donation1 from '../assets/images/donation1.jpg'
 
 
 function DonetionTwo() {
@@ -5,7 +6,7 @@ function DonetionTwo() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8  mx-auto px-4 max-w-[1320px] mt-12 md:mt-24 items-center">
       
       <div>
-        <img src="src/assets/images/donation1.jpg" className="w-full rounded-md" alt="img" />
+        <img src={Donation1} className="w-full rounded-md" alt="img" />
       </div>
       <div className="ml-8">
         <h2 className="text-[35px] md:text-[45px] leading-[55px] font-bold text-[#121212] font-inter mb-5 max-w-[492px]">They need us to suvive</h2>
