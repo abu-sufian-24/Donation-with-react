@@ -1,4 +1,5 @@
 
+import Donation0 from '../assets/images/donation0.jpg'
 
 function Donetion() {
   return (
@@ -10,7 +11,7 @@ function Donetion() {
       <button className="w-56 h-14 bg-[#FF5959] text-xl font-semibold  text-white mt-8 rounded-md">How to Contribute?</button>
       </div>
       <div>
-        <img src="src/assets/images/donation0.jpg" className="w-full rounded-md" alt="img" />
+        <img src={Donation0} className="w-full rounded-md" alt="img" />
       </div>
       
     </div>
